@@ -7,47 +7,71 @@
 </head>
 
 <body>
-	 <table border="1">
-        <thead>
-            <tr>
-                <th>Roll Number</th>
-                <th>Name</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Alice</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Bob</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Charlie</td>
-            </tr>
-        </tbody>
-    </table>
+	<section>
+        <h1>Student Information</h1>
+        <table>
+            <caption>Roll Numbers and Names</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Roll Number</th>
+                    <th scope="col">Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Alice</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Bob</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Charlie</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
-    <h2>List of medias</h2>
+    <!-- Heading Between Table and List -->
+    <h2>List of Medias</h2>
 
-    <!-- Ordered List Section -->
-    <ol>
-        <li>
-            <img src="https://picsum.photos/id/123/200/300" alt="Random image from Picsum">
-        </li>
-        <li>
-            <video controls>
-                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-            </video>
-        </li>
-        <li>
-            <audio controls>
-                <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-            </audio>
-        </li>
-    </ol>
+    <!-- Ordered List -->
+    <section>
+        <ol>
+            <!-- First Item: Image -->
+            <li>
+                <figure>
+                    <img src="https://picsum.photos/id/123/200/300" alt="Placeholder image of random scenery">
+                    <figcaption>Placeholder Image</figcaption>
+                </figure>
+            </li>
+
+            <!-- Second Item: Video -->
+            <li>
+                <figure>
+                    <video controls width="400">
+                        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <figcaption>Big Buck Bunny Video</figcaption>
+                </figure>
+            </li>
+
+            <!-- Third Item: Audio -->
+            <li>
+                <figure>
+                    <audio controls>
+                        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+                        Your browser does not support the audio tag.
+                    </audio>
+                    <figcaption>Lepidoptera Audio</figcaption>
+                </figure>
+            </li>
+        </ol>
+    </section>
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
