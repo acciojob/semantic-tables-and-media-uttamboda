@@ -1,80 +1,55 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Items</title>
 </head>
-
 <body>
-	<section>
-        <h1>Student Information</h1>
-        <table>
-            <caption>Roll Numbers and Names</caption>
-            <thead>
-                <tr>
-                    <th scope="col">Roll Number</th>
-                    <th scope="col">Name</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Alice</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Bob</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Charlie</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
 
-    <!-- Heading Between Table and List -->
-    <h2>List of Medias</h2>
+    <h2>Student Data</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Roll Number</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Alice Smith</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Bob Johnson</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Charlie Brown</td>
+            </tr>
+        </tbody>
+    </table>
 
-    <!-- Ordered List -->
-    <section>
-        <ol>
-            <!-- First Item: Image -->
-            <li>
-                <figure>
-                    <img src="https://picsum.photos/id/123/200/300" alt="Placeholder image of random scenery">
-                    <figcaption>Placeholder Image</figcaption>
-                </figure>
-            </li>
+    <h2>List of medias</h2>
 
-            <!-- Second Item: Video -->
-            <li>
-                <figure>
-                    <video controls width="400">
-                        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <figcaption>Big Buck Bunny Video</figcaption>
-                </figure>
-            </li>
-
-            <!-- Third Item: Audio -->
-            <li>
-                <figure>
-                    <audio controls>
-                        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-                        Your browser does not support the audio tag.
-                    </audio>
-                    <figcaption>Lepidoptera Audio</figcaption>
-                </figure>
-            </li>
-        </ol>
-    </section>
-	
-    <script type="text/javascript" src="./script.js">
-</script>
+    <ol>
+        <li>
+            <img src="https://picsum.photos/id/123/200/300" alt="Random Image">
+        </li>
+        <li>
+            <video controls width="320" height="240">
+                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </li>
+        <li>
+            <audio controls>
+                <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+                Your browser does not support the audio tag.
+            </audio>
+        </li>
+    </ol>
 
 </body>
-
 </html>
